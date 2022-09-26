@@ -1,0 +1,107 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+/* Begin flex structure configuration*/
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+
+#header {
+    height: 20%;
+}
+
+#name {
+    display: inline;
+    position: relative;
+    top: 30px;
+    left: 150px;
+    color: #660000;
+    font-family: "Pacifico", sans-serif;
+    font-size: 35px;
+    text-shadow: 0 0 5px white, 0 0 2px blue;
+}
+
+#main-section {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End flex structure configuration*/
+
+/* Begin image section */
+#profile {
+    height: 100%;
+    border-radius: 2%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 20px;
+    margin-left: 150px;
+}
+/* End image section */
+
+/* Begin button section */
+#button-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#button-group * {
+    font-family: "Pacifico", sans-serif;
+    font-size: 20px;
+    color: white;
+    display: block;
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    border: 2px solid white;
+    text-align: center;
+    margin: 20px 150px 20px 0px;
+    background-color: #660000;
+    border-radius: 8px;
+}
+
+#button-group *:hover {
+    text-shadow: 0px 0px 8px;
+    box-shadow: 0px 0px 20px white;
+    cursor: pointer;
+}
+/* End button section */
+
+/* Begin social section */
+#social-group {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-icon {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.social-icon > img {
+    width: 35px;
+    height: 35px;
+    margin: 0px 4px;
+    opacity: 0.7;
+}
+
+.social-icon > img:hover {
+    opacity: 1;
+}
+/* End social section */

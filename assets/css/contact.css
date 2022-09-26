@@ -1,0 +1,57 @@
+.hover-enable:hover {
+    opacity: 0.2;
+    transition: 0.2s;
+}
+
+h3 {
+    width: 78%;
+    margin: 70px auto 20px;
+    font-family:'Proxima Nova', sans-serif;
+    opacity: 0.7;
+}
+
+/* Structure form */
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+    font-family:'Proxima Nova', sans-serif;
+}
+
+.grid-row {
+    padding: 10px;
+}
+
+.separate {
+    grid-column: 1/3;
+}
+
+.name-label {
+    font-size: 12px;
+}
+
+.input, .message-area {
+    margin: 5px 0;
+    width: 100%;
+    background-color : #fafafa;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.input {
+    height: 30px;
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    font-size: 16px;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+}
